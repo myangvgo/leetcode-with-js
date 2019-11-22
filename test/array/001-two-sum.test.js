@@ -1,4 +1,4 @@
-import { expect, deepEqual } from 'chai';
+import { expect } from 'chai';
 import { twoSum } from '../../src';
 
 describe('001 Two Sum', () => {

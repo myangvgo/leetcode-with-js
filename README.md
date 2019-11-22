@@ -7,7 +7,7 @@ Solving LeetCode problems using JavaScript
 ### Run all tests
 
 ```shell
-npm test
+npm test test/**/*.js
 ```
 
 ### Run all tests in a file (or multiple files matched)
