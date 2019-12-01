@@ -5,6 +5,9 @@
   "scripts": {
     "test": "mocha --require @babel/register"
   },
+  "bin": {
+    "add": "bin/add.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/myangvgo/leetcode-with-js.git"
@@ -25,6 +28,8 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/register": "^7.7.0",
     "chai": "^4.2.0",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
     "mocha": "^6.2.2"
   }
 }
