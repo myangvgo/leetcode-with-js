@@ -19,4 +19,18 @@ var removeDuplicates = function(nums) {
     return p + 1;
 };
 
-export { removeDuplicates };
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates2 = function(nums) {
+    if (nums.length < 2) return nums.length;
+    let i = 0,
+        j = 1;
+    for (; j < nums.length; j++) {
+        if (nums[j] !== nums[i]) nums[++i] = nums[j];
+    }
+    return i + 1;
+};
+
+export { removeDuplicates, removeDuplicates2 };
