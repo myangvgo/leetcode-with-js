@@ -23,5 +23,9 @@ export {
     dominantIndexV2
 } from './array/747-largest-number-at-least-twice-of-others';
 
+// stack
+export { isValid, isValid2, isValid3 } from './stack/020-valid-parentheses';
+export { MinStack, MinStack2 } from './stack/155-min-stack';
+
 // sort
 export { sortColors } from './sort/075-sort-colors';
