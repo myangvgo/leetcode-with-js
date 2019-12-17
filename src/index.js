@@ -27,5 +27,13 @@ export {
 export { isValid, isValid2, isValid3 } from './stack/020-valid-parentheses';
 export { MinStack, MinStack2 } from './stack/155-min-stack';
 
+// hash table
+export { groupAnagrams, groupAnagrams2 } from './hash-table/049-group-anagrams';
+export {
+    isAnagram,
+    isAnagram2,
+    isAnagram3
+} from './hash-table/242-valid-anagram';
+
 // sort
 export { sortColors } from './sort/075-sort-colors';
