@@ -35,5 +35,45 @@ export {
     isAnagram3
 } from './hash-table/242-valid-anagram';
 
+// binary tree and n-ary tree
+export {
+    inorderTraversal,
+    inorderTraversal2,
+    inorderTraversal3
+} from './binary-tree/094-binary-tree-inorder-traversal';
+
+export {
+    preorderTraversal,
+    preorderTraversal2,
+    preorderTraversal3,
+    preorderTraversal4
+} from './binary-tree/144-binary-tree-preorder-traversal';
+
+export {
+    postorderTraversal,
+    postorderTraversal2,
+    postorderTraversal3,
+    postorderTraversal4
+} from './binary-tree/145-binary-tree-postorder-traversal';
+
+export {
+    levelOrder,
+    levelOrder2
+} from './binary-tree/429-n-ary-tree-level-order-traversal';
+
+export {
+    preorder,
+    preorder2
+} from './binary-tree/589-n-ary-tree-preorder-traversal';
+
+export {
+    postorder,
+    postorder2
+} from './binary-tree/589-n-ary-tree-postorder-traversal';
+
 // sort
 export { sortColors } from './sort/075-sort-colors';
+
+// util
+export { TreeNode } from './util/models/tree-node';
+export { BinarySearchTree } from './util/binary-search-tree';
