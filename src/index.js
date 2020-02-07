@@ -69,7 +69,13 @@ export {
 export {
     postorder,
     postorder2
-} from './binary-tree/589-n-ary-tree-postorder-traversal';
+} from './binary-tree/590-n-ary-tree-postorder-traversal';
+
+// recursion
+export { generateParenthesis } from './recursion/022-generate-parentheses';
+export { myPow, myPow1, myPow2 } from './recursion/050-powx-n';
+export { subsets, subsets1 } from './recursion/078-subsets';
+export { majorityElement, majorityElement1 } from './recursion/169-majority-element';
 
 // sort
 export { sortColors } from './sort/075-sort-colors';
