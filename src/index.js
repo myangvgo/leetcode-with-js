@@ -75,7 +75,30 @@ export {
 export { generateParenthesis } from './recursion/022-generate-parentheses';
 export { myPow, myPow1, myPow2 } from './recursion/050-powx-n';
 export { subsets, subsets1 } from './recursion/078-subsets';
-export { majorityElement, majorityElement1 } from './recursion/169-majority-element';
+export {
+    majorityElement,
+    majorityElement1
+} from './recursion/169-majority-element';
+
+// bit manipulation
+export { reverseBits } from './bit-manipulation/190-reverse-bits';
+export {
+    hammingWeight,
+    hammingWeight1,
+    hammingWeight2,
+    hammingWeight3
+} from './bit-manipulation/191-number-of-1-bit';
+export {
+    isPowerOfTwo,
+    isPowerOfTwo1,
+    isPowerOfTwo2,
+    isPowerOfTwo3
+} from './bit-manipulation/231-power-of-two';
+export {
+    countBits,
+    countBits1,
+    countBits2
+} from './bit-manipulation/338-counting-bits';
 
 // sort
 export { sortColors } from './sort/075-sort-colors';
