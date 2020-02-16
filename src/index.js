@@ -83,6 +83,36 @@ export {
     majorityElement1
 } from './recursion/169-majority-element';
 
+// dynamic programming
+export {
+    maxSubArray,
+    maxSubArray2
+} from './dynamic-programming/053-maximum-subarray';
+export {
+    uniquePaths,
+    uniquePaths2
+} from './dynamic-programming/062-unique-paths';
+export {
+    uniquePathsWithObstacles,
+    uniquePathsWithObstacles2
+} from './dynamic-programming/063-unique-paths-ii';
+export {
+    minimumTotal,
+    minimumTotal2,
+    minimumTotal3,
+    minimumTotal4
+} from './dynamic-programming/120-triangle';
+export {
+    maxProduct,
+    maxProduct2
+} from './dynamic-programming/152-maximum-product-subarray';
+export { rob, rob2, rob3 } from './dynamic-programming/198-house-robber';
+export {
+    longestCommonSubsequence,
+    longestCommonSubsequence2,
+    longestCommonSubsequence3
+} from './dynamic-programming/1143-longest-common-subsequence';
+
 // bit manipulation
 export { reverseBits } from './bit-manipulation/190-reverse-bits';
 export {
