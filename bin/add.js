@@ -17,16 +17,64 @@ createFile(
 );
 
 // 创建 test 文件
+let [number, ...desc] = program.filename.split('-');
+const testTemplate = `import { expect } from 'chai';
+import {  } from '../../src';
+
+describe('Test ${desc.join(' ')}', () => {
+    let input = [];
+    let expectedOutput = [];
+    let actual = [];
+    let testMethods = [];
+
+    // arrange
+    beforeEach(() => {
+        input = [];
+        expectedOutput = [];
+        actual = [];
+    });
+
+    testMethods.forEach(fn => {
+        it('Use method \${fn.name} should calculate the correct result', () => {
+            // act
+            input.forEach(item => actual.push(fn(item)));
+
+            // assert
+            expect(actual).to.deep.equal(expectedOutput);
+        });
+    });
+});
+`;
 createFile(
-    path.join(rootDir, 'test', program.category, `${program.filename}.test.js`)
+    path.join(rootDir, 'test', program.category, `${program.filename}.test.js`),
+    testTemplate
 );
 
 // 创建 doc/solution 文件
+const docTemplate = `# ${number.replace(/^0/, '')}. (${desc.join(' ')})
+
+## 题目描述
+
+<https://leetcode-cn.com/problems/${desc.join('-')}/>
+
+## 题目解析
+
+### 解法一：
+
+\`\`\`js
+
+\`\`\`
+
+时间复杂度：O()
+空间复杂度：O()
+
+`;
 createFile(
     path.join(
         rootDir,
         'doc/solutions',
         program.category,
         `${program.filename}.md`
-    )
+    ),
+    docTemplate
 );
