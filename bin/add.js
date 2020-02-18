@@ -21,7 +21,7 @@ let [number, ...desc] = program.filename.split('-');
 const testTemplate = `import { expect } from 'chai';
 import {  } from '../../src';
 
-describe('Test ${desc.join(' ')}', () => {
+describe('Test LeetCode NO. ${number - desc.join(' ')}', () => {
     let input = [];
     let expectedOutput = [];
     let actual = [];
@@ -35,7 +35,7 @@ describe('Test ${desc.join(' ')}', () => {
     });
 
     testMethods.forEach(fn => {
-        it('Use method \${fn.name} should calculate the correct result', () => {
+        it(\`Use method \${fn.name} should calculate the correct result\`, () => {
             // act
             input.forEach(item => actual.push(fn(item)));
 
@@ -51,7 +51,7 @@ createFile(
 );
 
 // 创建 doc/solution 文件
-const docTemplate = `# ${number.replace(/^0/, '')}. (${desc.join(' ')})
+const docTemplate = `# ${number.replace(/^0/, '')}. [题目名称] (${desc.join(' ')})
 
 ## 题目描述
 
@@ -59,7 +59,7 @@ const docTemplate = `# ${number.replace(/^0/, '')}. (${desc.join(' ')})
 
 ## 题目解析
 
-### 解法一：
+### 解法一
 
 \`\`\`js
 
@@ -67,7 +67,6 @@ const docTemplate = `# ${number.replace(/^0/, '')}. (${desc.join(' ')})
 
 时间复杂度：O()
 空间复杂度：O()
-
 `;
 createFile(
     path.join(
