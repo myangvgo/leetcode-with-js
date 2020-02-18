@@ -11,17 +11,42 @@ program
 program.parse(process.argv);
 let rootDir = path.resolve(__dirname, '..');
 
-// 创建 src 文件
+// process title and number
+let [number, ...desc] = program.filename.split('-');
+const capWords = desc.map(word => word.charAt(0).toUpperCase() + word.slice(1));
+let len = capWords.length;
+if (
+    capWords[len - 1] &&
+    // Upper Case Roman Numerals
+    [
+        'I',
+        'II',
+        'III',
+        'IV',
+        'V',
+        'VI',
+        'VII',
+        'VIII',
+        'IX',
+        'X',
+        'XI',
+        'XII'
+    ].includes(capWords[len - 1].toUpperCase())
+)
+    capWords[len - 1] = capWords[len - 1].toUpperCase();
+const title = capWords.join(' ');
+number = number.replace(/^0/, ''); // trim leading 0
+
+// 1. 创建 src 文件
 createFile(
     path.join(rootDir, 'src', program.category, `${program.filename}.js`)
 );
 
-// 创建 test 文件
-let [number, ...desc] = program.filename.split('-');
+// 2. 创建 test 文件
 const testTemplate = `import { expect } from 'chai';
 import {  } from '../../src';
 
-describe('Test LeetCode NO. ${number - desc.join(' ')}', () => {
+describe('Test LeetCode NO.${number} - ${title}', () => {
     let input = [];
     let expectedOutput = [];
     let actual = [];
@@ -50,8 +75,8 @@ createFile(
     testTemplate
 );
 
-// 创建 doc/solution 文件
-const docTemplate = `# ${number.replace(/^0/, '')}. [题目名称] (${desc.join(' ')})
+// 3. 创建 doc/solution 文件
+const docTemplate = `# ${number}.[题目名称](${title})
 
 ## 题目描述
 
