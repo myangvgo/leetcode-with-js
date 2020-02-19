@@ -6,7 +6,9 @@ const path = require('path');
 const util = require('util');
 const readAsync = util.promisify(fs.readFile);
 
-describe('Test LeetCode NO.188 - Best Time To Buy And Sell Stock IV', () => {
+describe('Test LeetCode NO.188 - Best Time To Buy And Sell Stock IV', function() {
+    // increase timeouts for time-consuming async tasks
+    this.timeout(5000); // default is 2000
     let input = [];
     let expectedOutput = [];
     let actual = [];
