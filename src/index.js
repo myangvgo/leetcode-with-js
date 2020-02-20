@@ -84,6 +84,7 @@ export {
 } from './recursion/169-majority-element';
 
 // dynamic programming
+export { longestValidParentheses } from './dynamic-programming/032-longest-valid-parentheses';
 export {
     maxSubArray,
     maxSubArray2
@@ -96,6 +97,10 @@ export {
     uniquePathsWithObstacles,
     uniquePathsWithObstacles2
 } from './dynamic-programming/063-unique-paths-ii';
+export {
+    minPathSum,
+    minPathSum2
+} from './dynamic-programming/064-minimum-path-sum';
 export {
     minimumTotal,
     minimumTotal2,
@@ -118,6 +123,10 @@ export {
     maxProfitIV,
     maxProfitIV2
 } from './dynamic-programming/188-best-time-to-buy-and-sell-stock-iv';
+export {
+    maximalSquare,
+    maximalSquare2
+} from './dynamic-programming/221-maximal-square';
 export {
     maxProfitV,
     maxProfitV2
