@@ -169,6 +169,9 @@ export {
 // sort
 export { sortColors } from './sort/075-sort-colors';
 
+// crack the coding interview
+export { mergeSorted } from './cracking-the-coding-interview/10_01-sorted-merge-lcci';
+
 // util
 export { TreeNode } from './util/models/tree-node';
 export { BinarySearchTree } from './util/binary-search-tree';
