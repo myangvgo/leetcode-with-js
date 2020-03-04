@@ -83,6 +83,9 @@ export {
     majorityElement1
 } from './recursion/169-majority-element';
 
+// dfs-bfs
+export { orangesRotting } from './dfs-bfs/994-rotting-oranges';
+
 // dynamic programming
 export { longestValidParentheses } from './dynamic-programming/032-longest-valid-parentheses';
 export {
