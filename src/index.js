@@ -25,6 +25,10 @@ export {
 
 // linked list
 export { LRUCache, LRUCache2 } from './linked-list/146-lru-cache';
+export {
+    middleNode,
+    middleNode2
+} from './linked-list/876-middle-of-the-linked-list';
 
 // stack
 export { isValid, isValid2, isValid3 } from './stack/020-valid-parentheses';
