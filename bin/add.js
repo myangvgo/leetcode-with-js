@@ -102,14 +102,16 @@ createFile(
 );
 
 // 3. 创建 doc/solution 文件
-let genre = '「LeetCode」';
+let genre = 'LeetCode';
 if (category == 'cracking-the-coding-interview') {
-    genre = '「程序员面试金典」';
+    genre = '程序员面试金典';
 } else if (category == 'jian-zhi-offer') {
-    genre = '「剑指 offer」'
+    genre = '剑指 offer'
 }
 
-const docTemplate = `# ${genre} ${number}.[${program.chineseDesc || '中文题目名称'}](${title})
+const docTemplate = `# ${genre} ${number}. ${program.chineseDesc || '请输入题目中文名称'} (${title})
+
+[返回题解列表](../../../README.md)
 
 ## 题目描述
 
@@ -125,7 +127,10 @@ const docTemplate = `# ${genre} ${number}.[${program.chineseDesc || '中文题�
 
 时间复杂度：\`O()\`
 空间复杂度：\`O()\`
+
+[返回题解列表](../../../README.md)
 `;
+
 createFile(
     path.join(
         rootDir,
