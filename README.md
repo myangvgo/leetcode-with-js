@@ -213,6 +213,7 @@ node bin/add.js -f numberOfProblem-name-of-leetcode-problem -c categoryName -t c
 
 ## IV. 程序员面试金典题解
 
-| 题号  | 题目链接                                                     |                   难度                    |                           题解链接                           | 分类         | 刷题思路 |
-| ----- | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------------: | ------------ | -------- |
-| 10.01 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/cracking-the-coding-interview/10_01-sorted-merge-lcci.md) | 数组、双指针 |          |
+| 题号  | 题目链接                                                     |                   难度                    |                           题解链接                           | 分类         | 刷题思路                  |
+| ----- | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------------: | ------------ | ------------------------- |
+| 10.01 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/cracking-the-coding-interview/10_01-sorted-merge-lcci.md) | 数组、双指针 |                           |
+| 17.16 | [按摩师](https://leetcode-cn.com/problems/the-masseuse-lcci) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/cracking-the-coding-interview/17_16-the-masseuse-lcci.md) | 动态规划     | 类似于 198. 打家劫舍 问题 |
