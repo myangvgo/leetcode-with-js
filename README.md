@@ -201,9 +201,9 @@ node bin/add.js -f numberOfProblem-name-of-leetcode-problem -c categoryName -t c
 
 ### 数学 (math)
 
-| 题号 | 题目链接 | 难度 | 题解链接 | 刷题思路 |
-| ---- | -------- | :--: | :------: | -------- |
-|      |          |      |          |          |
+| 题号 | 题目链接                                                     |                   难度                    |                           题解链接                           | 刷题思路   |
+| ---- | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------------: | ---------- |
+| 892  | [三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/math/892-surface-area-of-3d-shapes.md) | 画图找规律 |
 
 ## III. 剑指 Offer 题解
 

@@ -176,6 +176,9 @@ export {
 // sort
 export { sortColors } from './sort/075-sort-colors';
 
+// math
+export { surfaceArea } from './math/892-surface-area-of-3d-shapes';
+
 // crack the coding interview
 export { mergeSorted } from './cracking-the-coding-interview/10_01-sorted-merge-lcci';
 export {
