@@ -22,6 +22,10 @@ export {
     dominantIndex,
     dominantIndexV2
 } from './array/747-largest-number-at-least-twice-of-others';
+export {
+    numRookCaptures,
+    numRookCaptures2
+} from './array/999-available-captures-for-rook';
 
 // linked list
 export { LRUCache, LRUCache2 } from './linked-list/146-lru-cache';

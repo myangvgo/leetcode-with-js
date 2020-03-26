@@ -115,21 +115,22 @@ node bin/add.js -f numberOfProblem-name-of-leetcode-problem -c categoryName -t c
 
 ### 数组 (array)
 
-| 题号 | 题目链接                                                     |                   难度                    |                           题解链接                           | 刷题思路 |
-| ---- | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------------: | -------- |
-| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | <span style="color: #43A047;">简单</span> |         [题解](./doc/solutions/array/001-two-sum.md)         |          |
-| 11   | [盛水最多的容器](https://leetcode-cn.com/problems/container-with-most-water/) | <span style="color: #EF6C00;">中等</span> | [题解](./doc/solutions/array/011-container-with-most-water.md) |          |
-| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | <span style="color: #EF6C00;">中等</span> |        [题解](./doc/solutions/array/015-three-sum.md)        |          |
-| 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/026-remove-duplicates-from-sorted-array.md)        |          |
-| 27   | [移除元素](https://leetcode-cn.com/problems/remove-element)  | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/027-remove-element.md)        |          |
-| 66   | [加一](https://leetcode-cn.com/problems/plus-one)           | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/066-plus-one.md)        |          |
-| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)  | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/070-climbing-stairs.md)        |          |
-| 80   | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii) | <span style="color: #EF6C00;">中等</span> |        [题解](./doc/solutions/array/080-remove-duplicates-from-sorted-array-ii.md)        |          |
-| 88   | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/088-merge-sorted-array.md)        |          |
-| 189  | [旋转数组](https://leetcode-cn.com/problems/rotate-array)   | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/189-rotate-array.md)        |          |
-| 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes)       | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/283-move-zeroes.md)        |          |
-| 724  | [寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index) | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/724-find-pivot-index.md)        |          |
-| 747  | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others) | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/747-largest-number-at-least-twice-of-others.md)        |          |
+| 题号 | 题目链接                                                     |                   难度                    |                           题解链接                           | 刷题思路             |
+| ---- | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------------: | -------------------- |
+| 1    | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | <span style="color: #43A047;">简单</span> |         [题解](./doc/solutions/array/001-two-sum.md)         |                      |
+| 11   | [盛水最多的容器](https://leetcode-cn.com/problems/container-with-most-water/) | <span style="color: #EF6C00;">中等</span> | [题解](./doc/solutions/array/011-container-with-most-water.md) |                      |
+| 15   | [三数之和](https://leetcode-cn.com/problems/3sum/)           | <span style="color: #EF6C00;">中等</span> |        [题解](./doc/solutions/array/015-three-sum.md)        |                      |
+| 26   | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/array/026-remove-duplicates-from-sorted-array.md) |                      |
+| 27   | [移除元素](https://leetcode-cn.com/problems/remove-element)  | <span style="color: #43A047;">简单</span> |     [题解](./doc/solutions/array/027-remove-element.md)      |                      |
+| 66   | [加一](https://leetcode-cn.com/problems/plus-one)            | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/array/066-plus-one.md)         |                      |
+| 70   | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)   | <span style="color: #43A047;">简单</span> |     [题解](./doc/solutions/array/070-climbing-stairs.md)     |                      |
+| 80   | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii) | <span style="color: #EF6C00;">中等</span> | [题解](./doc/solutions/array/080-remove-duplicates-from-sorted-array-ii.md) |                      |
+| 88   | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array) | <span style="color: #43A047;">简单</span> |   [题解](./doc/solutions/array/088-merge-sorted-array.md)    |                      |
+| 189  | [旋转数组](https://leetcode-cn.com/problems/rotate-array)    | <span style="color: #43A047;">简单</span> |      [题解](./doc/solutions/array/189-rotate-array.md)       |                      |
+| 283  | [移动零](https://leetcode-cn.com/problems/move-zeroes)       | <span style="color: #43A047;">简单</span> |       [题解](./doc/solutions/array/283-move-zeroes.md)       |                      |
+| 724  | [寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index) | <span style="color: #43A047;">简单</span> |    [题解](./doc/solutions/array/724-find-pivot-index.md)     |                      |
+| 747  | [至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/array/747-largest-number-at-least-twice-of-others.md) |                      |
+| 999  | [车的可用捕获量](https://leetcode-cn.com/problems/available-captures-for-rook) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/array/999-available-captures-for-rook.md) | 使用方向向量简化移动 |
 
 ### 链表 (linked list)
 
