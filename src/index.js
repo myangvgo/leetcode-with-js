@@ -182,6 +182,7 @@ export { sortColors } from './sort/075-sort-colors';
 
 // math
 export { surfaceArea } from './math/892-surface-area-of-3d-shapes';
+export { hasGroupsSizeX } from './math/914-x-of-a-kind-in-a-deck-of-cards';
 
 // crack the coding interview
 export { mergeSorted } from './cracking-the-coding-interview/10_01-sorted-merge-lcci';
