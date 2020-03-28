@@ -22,6 +22,7 @@ Solving LeetCode problems using JavaScript。
   * [链表 (linked list)](#链表-linked-list)
   * [栈 (stack)](#栈-stack)
   * [哈希表 (hashtable)](#哈希表-hashtable)
+  * [字典树 (trie)](#字典树-trie)
   * [递归 (recursion)](#递归-recursion)
   * [二叉树 (binary tree)](#二叉树-binary-tree)
   * [二分搜索 (binary search)](#二分搜索-binary-search)
@@ -151,6 +152,12 @@ node bin/add.js -f numberOfProblem-name-of-leetcode-problem -c categoryName -t c
 | 题号 | 题目链接 | 难度 | 题解链接 | 刷题思路 |
 | ---- | -------- | :--: | :------: | -------- |
 |      |          |      |          |          |
+
+### 字典树 (trie)
+
+| 题号 | 题目链接                                                     |                   难度                    |                          题解链接                           | 刷题思路                                      |
+| ---- | ------------------------------------------------------------ | :---------------------------------------: | :---------------------------------------------------------: | --------------------------------------------- |
+| 820  | [单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words) | <span style="color: #EF6C00;">中等</span> | [题解](./doc/solutions/trie/820-short-encoding-of-words.md) | （1）字典树（Trie）后缀树 + 排序（2）Set 去重 |
 
 ### 递归 (recursion)
 

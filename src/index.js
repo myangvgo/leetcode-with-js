@@ -82,6 +82,12 @@ export {
     postorder2
 } from './binary-tree/590-n-ary-tree-postorder-traversal';
 
+// trie
+export {
+    minimumLengthEncoding,
+    minimumLengthEncoding2
+} from './trie/820-short-encoding-of-words';
+
 // recursion
 export { generateParenthesis } from './recursion/022-generate-parentheses';
 export { myPow, myPow1, myPow2 } from './recursion/050-powx-n';
