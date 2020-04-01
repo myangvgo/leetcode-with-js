@@ -37,6 +37,10 @@ export {
 // stack
 export { isValid, isValid2, isValid3 } from './stack/020-valid-parentheses';
 export { MinStack, MinStack2 } from './stack/155-min-stack';
+export {
+    maxDepthAfterSplit,
+    maxDepthAfterSplit2
+} from './stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings';
 
 // hash table
 export { groupAnagrams, groupAnagrams2 } from './hash-table/049-group-anagrams';

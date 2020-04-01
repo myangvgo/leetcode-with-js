@@ -142,10 +142,11 @@ node bin/add.js -f numberOfProblem-name-of-leetcode-problem -c categoryName -t c
 
 ### 栈 (stack)
 
-| 题号 | 题目链接                                                     |                   难度                    |                        题解链接                        | 刷题思路 |
-| ---- | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------: | -------- |
-| 20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/stack/020-valid-parentheses.md) |          |
-| 155  | [最小栈](https://leetcode-cn.com/problems/min-stack)        | <span style="color: #43A047;">简单</span> | [题解](./doc/solutions/stack/155-min-stack.md) |          |
+| 题号 | 题目链接                                                     |                   难度                    |                           题解链接                           | 刷题思路                       |
+| ---- | ------------------------------------------------------------ | :---------------------------------------: | :----------------------------------------------------------: | ------------------------------ |
+| 20   | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | <span style="color: #43A047;">简单</span> |    [题解](./doc/solutions/stack/020-valid-parentheses.md)    |                                |
+| 155  | [最小栈](https://leetcode-cn.com/problems/min-stack)         | <span style="color: #43A047;">简单</span> |        [题解](./doc/solutions/stack/155-min-stack.md)        |                                |
+| 1111 | [有效括号的嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) | <span style="color: #EF6C00;">中等</span> | [题解](./doc/solutions/stack/1111-maximum-nesting-depth-of-two-valid-parentheses-strings.md) | 使用栈判断最大深度；奇偶性判断 |
 
 ### 哈希表 (hashtable)
 
